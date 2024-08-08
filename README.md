@@ -6,27 +6,27 @@ To use this QR Code Generator, you'll need to have ```Python``` installed on you
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/sleinkaraman/QRCodeGenerator.git
-   cd QRCodeGenerator
-   ```
+  ```bash
+  git clone https://github.com/sleinkaraman/QRCodeGenerator.git
+  cd QRCodeGenerator
+  ```
 
 2. (Optional) Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate
-```
+  ```bash
+ python -m venv venv
+ source venv/bin/activate    # On Windows: venv\Scripts\activate
+ ```
 
 3. Install the required library:
-```bash
-pip install pyqrcode
-```
+  ```bash
+  pip install pyqrcode
+  ```
 # Usage
 
-1. Run the script:
-```bash
-python qr_code_generator.py
-```
+  1. Run the script:
+  ```bash
+  python qr_code_generator.py
+  ```
 2. Enter the URL you want to convert into a QR code.
 3. The QR code will be saved in the same directory.
 
